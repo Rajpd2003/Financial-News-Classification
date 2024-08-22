@@ -4,4 +4,5 @@ The sentences in the news are modeled as matrices with words represented by the 
 
 # Structure of Model
 The model consists of LSTM with 50 units followed by a dense layer with 3 units to give the probability of positive, negative or neutral sentiments.
+
 ![image](https://github.com/user-attachments/assets/a7f9034a-49d4-46e8-b691-67bb243176b4)
