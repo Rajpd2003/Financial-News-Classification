@@ -1,6 +1,6 @@
 # Financial-News-Classification
 This model uses LSTM to classify news about companies as positive, negative or neutral thus helping to decide upon investment startegies.
-The sentences in the news are modeled as matrices with words represented by the rows.To convert the words to vectors Doc2Vec model is used and cosine similarity between similar words is used to check the performance of word the embedding model.
+The sentences in the news are modeled as matrices with words represented by the rows.To convert the words to vectors Doc2Vec model is used and cosine similarity between similar words is used to check the performance of the word embedding model.
 
 # Structure of Model
 The model consists of LSTM with 50 units followed by a dense layer with 3 units to give the probability of positive, negative or neutral sentiments.
